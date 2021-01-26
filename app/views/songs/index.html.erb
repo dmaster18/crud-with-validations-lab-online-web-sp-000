@@ -1,0 +1,7 @@
+<h1>Song Index Page</h1>
+<% @songs.each do |song| %>
+  <ol>
+    <li> <%= link_to @song.title, song_path(song.id) %> </li>  
+  </ol>
+
+<% end %>

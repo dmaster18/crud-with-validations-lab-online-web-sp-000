@@ -1,5 +1,7 @@
 # CRUD With Validations Lab
 
+#rails g resource Account name:string payment_status:string --no-test-framework
+
 Your goal in this lab is to create a thorough CRUD interface for one model, the
 `Song`.
 
